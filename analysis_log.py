@@ -162,7 +162,7 @@ if __name__ == '__main__':
                             NMAP success! {}\n=====================-n"\
                             .format(prob_str))
 
-    save_to_json(prob_ip_list, res, file_name=cache_file_name)
+    #save_to_json(prob_ip_list, res, file_name=cache_file_name)
 
     for susp in susp_list:
         main_logger.info(susp)
